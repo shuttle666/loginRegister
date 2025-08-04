@@ -22,7 +22,7 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:lkxbzljb@usw.sealos.io:37852/?directConnection=true
       - ACCESS_TOKEN_SECRET=a806906a4c83120940e117824e6c6e98d342cf1591af224edb1a2a94a911a8143c6bc12c4bfba9e09cef4739e0df060f249dc5c9e566a947720e6f174bfc467e
-      - TOKEN_EXPIRES_IN=20s
+      - TOKEN_EXPIRES_IN=60s
       - PORT=9090
     networks:
       - app-network
