@@ -24,7 +24,7 @@ ENV VITE_BACKEND_PATH="http://localhost:9090"
 ENV VITE_LOGIN_TOKEN="login_token"
 
 # 暴露端口
-EXPOSE 3000
+EXPOSE 9191
 
 # 使用serve启动静态文件服务
-CMD ["serve", "-s", "dist", "-l", "3000"]
+CMD ["serve", "-s", "dist", "-l", "9191"]
