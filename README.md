@@ -1,7 +1,7 @@
 # Login & Register System
 
 The project has been deployed at: 
-https://login-and-register-frontend-etjvml-c9e083-3-107-2-8.traefik.me/
+https://login-and-register-frontend-4pihla-a9a1c4-13-54-49-177.traefik.me/
 
 You can try to register and then log in. The password is encrypted and stored in the database. After successful login, the video will be loaded. And because of the use of JWT, it is possible to automatically log in after a certain period of time by refreshing the token.
 
