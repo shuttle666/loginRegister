@@ -9,7 +9,7 @@ import axios from "axios"
 const backendPath = import.meta.env.VITE_BACKEND_PATH
 const loginToken = import.meta.env.VITE_LOGIN_TOKEN
 
-const videosrc = "https://s3-service-262vir-824a73-13-54-49-177.traefik.me/test/SwimmingCat.MP4"
+const videosrc = "https://s3-service-262vir-824a73-13-54-49-177.traefik.me/test/swimmingCat.MP4"
 const videoLoader = new VideoLoader()
 
 // here btn function
